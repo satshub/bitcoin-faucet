@@ -35,5 +35,8 @@
     "rate-limiter-flexible": "^2.2.2",
     "svg-captcha": "^1.4.0",
     "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/bson": "^4.2.0"
   }
 }

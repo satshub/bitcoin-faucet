@@ -1,4 +1,4 @@
-import { Db, MongoClient, ObjectID, SortOptionObject } from 'mongodb';
+import { Db, MongoClient, ObjectId, SortOptionObject } from 'mongodb';
 import * as assert from 'assert';
 
 import config from './config';
@@ -22,7 +22,7 @@ export class DB {
     db?: Db;
 
     id(id: string) {
-        return new ObjectID(id);
+        return new ObjectId(id);
     }
     async connect() {
         assert(!this.connected);
